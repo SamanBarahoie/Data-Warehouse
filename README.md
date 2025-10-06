@@ -48,15 +48,13 @@ The project follows a layered **Data Warehouse design**:
 
 CSV → Bronze → Silver → Gold → Analytics/BI
 
-![Star Schema Diagram](Docs and images/architecture.png)
+<img src="Docs and images/architecture.png" alt="Star Schema" />
 
 
 ### Analytics/BI
 
 
-
-![Star Schema Diagram](Docs and images/power_bi.png)
----
+<img src="Docs and images/power_bi.png" alt="power_bi.png" />
 
 ## **Part 3: Usage & Execution**
 
@@ -94,4 +92,5 @@ GROUP BY Country;
 * Ensure CSV files are in the correct path with proper encoding (UTF-8).
 * Check `StockCode` availability; the ETL dynamically adapts if missing.
 * Views (`vw_SalesStar`) simplify querying and BI integration.
+
 
